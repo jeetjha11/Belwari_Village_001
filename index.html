@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible " content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Belwari@001</title>
+  <!---custome css-->
+  <link rel="stylesheet" href="jeetsirstyle.css">
+  <!---fontowesome link-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <!---bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <!---language---->
+
+  <!--navbaar-->
+  <nav class="navbar navbar-expand-lg bg-white fixed-top">
+
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="logo.CFrxNPnxzOwXs1M3EMoAJtlyAugvps9Pk4" alt="logo" class="w-50">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li>
+            <div class="language">
+              <div id="google_element"></div>
+              <script src="http://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
+              <script>
+                function loadGoogleTranslate() {
+                  new google.translate.TranslateElement({
+                    pageLanguage: 'en',
+                    includedLanguages: 'en,hi',
+                    layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                    multilanguagePage: true
+                  }, 'google_element');
+                }
+              </script>
+            </div>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Popular">Popular</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Service">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Reviws">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#question">question</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn text-white bg-dark px-3 round-0" href="Contactus.html">Contact Us</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!--hero section-->
+  <section>
+    <div id="carouselExampleAutoplaying" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="village1.jpg" class="d-block w-100-height" alt="image">
+          <div class="carousel-caption carousel">
+            <p>1 / 3</p>
+            <h5> Apna Village <br> Belbari</h5>
+            <p><a href="#" class="btn btn-light btn-lg mt-3 round-0">Discover More</a></p>
+            <div class="mt-5 d-flex">
+              <input type="text" class="form-control search w-50 round-0" id="floatingInput" placeholder="search....">
+              <button class="btn btn-light btn-sm justify-content-md-end mx-2 px-3">
+                <i class="fas fa-search"></i>Search</button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <img src="village2.jpg" class="d-block w-100-height" alt="image">
+          <div class="carousel-caption carousel">
+            <p>2 / 3</p>
+            <h5> Global Village <br> For our India<br> Generation</h5>
+            <p><a href="#" class="btn btn-light btn-lg mt-3 round-0">Discover More</a></p>
+            <div class="mt-5 d-flex">
+              <input type="text" class="form-control search w-50 round-0" id="floatingInput" placeholder="search....">
+              <button class="btn btn-light btn-sm justify-content-md-end mx-2 px-3">
+                <i class="fas fa-search"></i>Search</button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="village3.jpg" class="d-block w-100-height" alt="image">
+          <div class="carousel-caption carousel">
+            <p>3 / 3</p>
+            <h5> Good<br> For our India<br> Generation</h5>
+            <p><a href="#" class="btn btn-light btn-lg mt-3 round-0">Discover More</a></p>
+            <div class="mt-5 d-flex">
+              <input type="text" class="form-control search w-50 round-0" id="floatingInput" placeholder="search....">
+              <button class="btn btn-light btn-sm justify-content-md-end mx-2 px-3">
+                <i class="fas fa-search"></i>Search</button>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      <div class="col-md-4 z-1 position-absolute card-bottom card mb-3 card-color round-0 round-0"
+        style="background:#000;">
+        <div class="row align-items-center">
+
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title text-light">Belwari</h5>
+              <p class="card-text text-light">Belwari is a quaint village nestled in [mention your region or country].
+                Surrounded by lush greenery and serene landscapes, it offers a peaceful retreat from the hustle and
+                bustle of city life.</p>
+              <p class="card-text"><small class="text-white">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img src="vilage4.jpg" class="img-fluid rounded-start" alt="card-img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--bootstrap link-->
+  <!----popular Residing-->
+  <section class="container" style="margin-top: 100px;" id="Popular">
+    <p class="pt-5"> Popular</p>
+    <div class="f-flex">
+      <h2>Popular Places at Belwari</h2>
+      <h6 class="ms-auto">explore All<span class="arrow-icon">&rarr;</span></h6>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-2">
+      <div class="col">
+        <div class="card border-0 rounded-2">
+          <img src="durgaTemple.jpeg" class="card-img-top rounded-0" alt="image1">
+          <div class="card-body">
+            <p class="card-text text-muted">God Shiva Temple</p>
+            <div class="d-flex justify-content-center mt-3">
+
+
+            </div>
+            <div class="d-flex my-2">
+              <button class="btn btn-lg text-white bg-dark px-4 rounded-0">Know More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-0 rounded-2">
+          <img src="kali.jpeg" class="card-img-top rounded-0" alt="image1">
+          <div class="card-body">
+            <p class="card-text text-muted">Maa Kali Temple</p>
+
+            <div class="d-flex my-2">
+              <button class="btn btn-lg text-white bg-dark px-4 rounded-0">Know More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-0 rounded-2">
+          <img src="Post_office.avif" class="card-img-top rounded-0" alt="image1" id="small">
+          <div class="card-body">
+            <p class="card-text text-muted">Post Office</p>
+            <div class="d-flex my-2">
+              <button class="btn btn-lg text-white bg-dark px-4 rounded-0">Post Office</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!---dark background and logos + quates-->
+  <section class="bg-dark" style="margin-top: -15%;">
+    <div class="container pt-5">
+      <div class="row" style="margin-top:25%">
+        <div class="col-lg-4">
+          <h2 style="color:#b5b5b5;">DR. Navin Jha</h2>
+          <P style="color: #b5b5b5;">Famous Doctor of the Village</P>
+        </div>
+        <div class="col-lg-8 mb-5">
+          <h6 class="lh-lg" style="color:#b5b5b5;">"In the heart of rural tranquility, Dr. Navin Jha stands as a beacon
+            of health and hope. A dedicated medical professional, Dr. Jha epitomizes the essence of selflessness and
+            compassion. With a background in medicine and a heart for service, he has chosen to channel his expertise
+            towards improving the well-being of those residing in villages. Dr. Jha believes in the beauty of
+            simplicity, and his approach to healthcare is a testament to his commitment to the people he serves. In
+            villages where access to medical facilities may be limited, Dr. Navin Jha has become a lifeline, providing
+            care and support to those in need. His work extends beyond the realm of traditional medicine, as he strives
+            to address not only physical ailments but also the overall health and happiness of the communities he
+            serves. Dr. Jha's presence in these villages brings not only medical expertise but also a genuine concern
+            for the welfare of every individual, making him a beloved figure and a true asset to rural healthcare."</h6>
+        </div>
+
+      </div>
+      <hr class="text-light">
+      <div class="container mt-5 pb-5">
+        <div class="row text-center">
+          <div class="col-md-3 col-sm-6">
+            <img src="logo1.png" alt="logo1" style="width: 55%;">
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <img src="logo4.png" alt="logo1" style="width: 55%;">
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <img src="logo3.png" alt="logo1" style="width: 55%;">
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <img src="logo4.png" alt="logo1" style="width: 55%;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!--our service section--->
+  <!-- <section class="about section-padding" style="margin: top 40px;" id="Service">
+    <div class="text-center pb-5">
+      <h2>Our Service</h2>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 col-md-12 col-12">
+          <div class="d-flex">
+            <div class="about-img mx-2">
+              <img src="card1.jpg" alt="about-img" class="img-fluid h-100 mat-4">
+            </div>
+            <div class="about-img">
+              <img src="ddd4.jpg" alt="about-img" class="img-fluid h-75">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7 col-md-12 col-12 ps-lg-5 mt-md-5" style="margin-top: 40px;">
+          <div class="about-text">
+            <h2>Comfort is Our<br> Top Priority for Your</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias placeat, porro quod libero
+              earum vel molestiae adipisci temporibus, labore provident eveniet officia sed repudiandae. Nostrum impedit
+              excepturi voluptate beatae velit reprehenderit maxime atque fugit deserunt. Fugiat maiores illo deleniti
+              cumque eveniet magnam commodi mollitia repellendus impedit aut modi excepturi delectus fugit placeat
+              quisquam,
+              molestias cum nisi expedita corrupti pariatur? Unde in ad iure nobis repellendus accusantium dicta fuga et
+              similique consectetur assumenda itaque doloremque nihil corrupti eligendi atque ab, alias eos cum
+              recusandae
+              explicabo vero optio non velit? Explicabo sapiente maiores quis quibusdam alias est ipsam et deserunt
+              laudantium pariatur.</p>
+            <a href="#" class="btn text-white bg-dark px-3 rounded-0">See More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <section>
+    <!---blog content-->
+    <section class="container" style="margin-top: 100px;" id="Blog">
+      <p class="pt-5"> Blog</p>
+      <div class="f-flex">
+        <h2>Latest villages News</h2>
+        <button class="btn text-white bg-dark px-4 btn-md ms-auto rounded-0"> See All Articless</button>
+      </div>
+
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-2">
+        <div class="col">
+          <div class="card border-0 rounded-0">
+            <img
+              src="data:image/jpeg;base64,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"
+              class="card-img-top rounded-0" alt="image1">
+            <div class="card-body">
+              <p class="card-text text-muted">Buchun Bhagat Got married</p>
+              <p class="card-text text-muted">Buchun Bhagat, a person of great affluence, recently celebrated his
+                marriage, marking a momentous occasion in our village. Renowned for his wealth and successful ventures,
+                Buchun Bhagat holds a prominent position in the community. The wedding festivities were nothing short of
+                grandeur, reflecting his opulent lifestyle and the prosperity he has brought to the village.</p>
+
+              <button class="btn  text-primary px-4 btn-lg rounded-0" style="background-color: #d4e9ff;">Read
+                More</button>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0 rounded-0">
+            <img src="wifi connection.jpeg" class="card-img-top rounded-0" alt="image1">
+            <div class="card-body">
+              <p class="card-text text-muted">04 December 2023</p>
+              <p class="card-text text-muted">The arrival of WiFi connectivity in Belwari village marks a transformative
+                moment, ushering in a new era of connectivity and possibilities for the community. Previously untouched
+                by the digital wave, Belwari now stands at the intersection of tradition and technology, with WiFi
+                becoming a catalyst for progress and development.</p>
+
+              <button class="btn  text-primary px-4 btn-lg rounded-0" style="background-color: #d4e9ff;">Read
+                More</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0 rounded-0">
+            <img src="tech_agriculture.jpeg" class="card-img-top rounded-0" alt="image1">
+            <div class="card-body">
+              <p class="card-text text-muted">04 May 2023</p>
+              <p class="card-text text-muted">The infusion of cutting-edge technology in agriculture has heralded a
+                transformative era for Belwari village, where the gentle hum of traditional farming practices now
+                harmonizes with the efficient whir of modern machinery. The advent of state-of-the-art agricultural
+                equipment in Belwari marks a significant leap towards increased productivity, sustainability, and a
+                brighter future for the farming community.</p>
+
+              <button class="btn  text-primary px-4 btn-lg rounded-0" style="background-color: #d4e9ff;">Read
+                More</button>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!---review  section-->
+    <section class="bg-dark" style="margin: top 100px;" id="Reviws">
+      <div class="container pt-5">
+        <div class="d-flex" style="margin-top: 40px;">
+          <h2 class="text-light">Our Leader</h2><br><br>
+          <div class="ms-auto">
+            <button class="btn btn-md text-light"><span class="arrow-icon mx-2">&larr;</span></button>
+            <button class="btn btn-md text-light"><span class="arrow-icon mx-2">&larr;</span></button>
+          </div>
+        </div>
+      </div>
+      <div class="container mx-auto row row-cols-1 row-cols-1 row-cols-lg-3 g-4 pb-5">
+        <div class="card border-0 bg-transparent col-md-8">
+          <div class="row g-0">
+            <div class="col-md-5">
+              <img src="chief-removebg-preview.png" class="img-fluid" alt="...Chief photo">
+            </div>
+            <div class="col-md-7">
+              <div class="card-body">
+                <h5 class="card-title text-light">Hira Lal Das</h5>
+                <p class="card-text">The Head Mukhiya of our village is a venerable and respected figure, steering the
+                  community with wisdom and dedication. A pillar of leadership, the Head Mukhiya plays a pivotal role in
+                  the governance and well-being of the village. Their tenure is marked by a steadfast commitment to the
+                  prosperity and harmony of the community.</p>
+                <p class="card-text"><small class="text-light">Chief</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card border-0 bg-transparent col-md-8">
+          <div class="row g-0">
+            <div class="col-md-5">
+              <img src="head-removebg-preview.png" class="img-fluid" alt="head of the village">
+            </div>
+            <div class="col-md-7">
+              <div class="card-body">
+                <h5 class="card-title text-light">Ranjani Devi</h5>
+                <p class="card-text">Ranjani Devi, the esteemed Sarpanch of our village, embodies the spirit of dynamic
+                  and compassionate leadership. Her tenure as the head of our rural community has been marked by
+                  unwavering dedication to the welfare and progress of our village.</p>
+                <p class="card-text"><small class="text-light">Head Of the Village</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="card border-0 bg-transparent col-md-8">
+          <div class="row g-0">
+            <div class="col-md-5">
+              <img src="clints.png" class="img-fluid" alt="...">
+            </div>
+            <div class="col-md-7">
+              <div class="card-body">
+                <h5 class="card-title text-light">Ward Member</h5>
+                <p class="card-text">Sanicher Risi, our dedicated Ward Member, is a tireless advocate for the welfare of
+                  our community. With a passion for public service, Sanicher has played a pivotal role in addressing
+                  local issues and implementing initiatives that enhance the quality of life for residents in our ward.
+                </p>
+                <p class="card-text"><small class="text-light">Ward Menber</small></p>
+              </div>
+            </div>
+          </div>
+        </div> -->
+        <div class="card border-0 bg-transparent col-md-8">
+          <div class="row g-0">
+            <div class="col-md-5">
+              <img src="doctorNavinJha.png" class="img-fluid" alt="...">
+            </div>
+            <div class="col-md-7">
+              <div class="card-body">
+                <h5 class="card-title text-light">Dr. Navin Jha</h5>
+                <p class="card-text">In the heart of rural tranquility,<strong>Dr. Navin Jha</strong> stands as a beacon
+                  of health and hope. A dedicated medical professional, Dr. Jha epitomizes the essence of selflessness
+                  and
+                  compassion. With a background in medicine and a heart for service, he has chosen to channel his
+                  expertise
+                  towards improving the well-being of those residing in villages.
+                </p>
+                <p class="card-text"><small class="text-light">Doctor</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <!-- Question section---->
+      <section class="about section-padding" style="margin: top 40px;" id="question">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-lg-5 col-md-12 col-12 ps-lg-5 mt-md-3">
+              <div class="about-text">
+                <p>question</p>
+                <h2> Frequently Asked<br> question</h2>
+                <p>The agricultural landscape of Belwari paints a vibrant picture of sustenance, resilience, and the
+                  enduring spirit of its farming community. Nestled in the embrace of nature's bounty, the status of
+                  agriculture in Belwari is a testament to the hard work and dedication of its farmers.
+
+                  In the fertile fields of Belwari, the cycle of life revolves with the changing seasons. The rhythmic
+                  dance of sowing and harvesting, guided by the wisdom passed down through generations, sustains the
+                  village and provides a livelihood for its residents. The land, rich with the essence of tradition,
+                  yields a diverse bounty of crops, each telling a story of agricultural heritage.</p>
+                <a href="#" class="btn text-white bg-dark px-3 rounded-0">See More</a>
+              </div>
+            </div>
+            <!-----------question discription------------------->
+            <div class="accordion col-lg-7 mt-3" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    Who is the Chief of the Belwari Village
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Hira Lal Das.</strong> The Head Mukhiya of our village is a venerable and respected figure,
+                    steering the
+                    community with wisdom and dedication. A pillar of leadership, the Head Mukhiya plays a pivotal role
+                    in
+                    the governance and well-being of the village. Their tenure is marked by a steadfast commitment to
+                    the
+                    prosperity and harmony of the community.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Engineers From the Village
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Jeet and Alok</strong> Jeet and Alok, two exceptional engineers hailing from Belwari
+                    village, are shining examples of talent and determination. Their journey from our humble village to
+                    becoming engineers reflects not only their individual prowess but also the potential that resides
+                    within our close-knit community.<br>
+
+                    <strong>Jeet</strong>, &nbsp; with his keen intellect and innovative mindset, has been a source of
+                    inspiration for many aspiring young minds in Belwari. His commitment to excellence and continuous
+                    learning has not only propelled his own success but has also set a standard for academic achievement
+                    within our village.<br>
+
+                    <strong>Alok</strong>,&nbsp; on the other hand, brings a unique blend of creativity and
+                    problem-solving skills to the table. His engineering prowess goes hand in hand with a compassionate
+                    spirit, as he actively seeks ways to apply his knowledge for the betterment of our village. Alok's
+                    dedication to community development is a testament to his belief in using engineering for the
+                    greater good.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Developement of the Village
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>The development</strong>The development of a village is a holistic
+                    and multifaceted process that encompasses various aspects to enhance the overall well-being and
+                    living standards of its residents. It goes beyond just economic growth and infrastructure
+                    improvements; it involves creating a sustainable, inclusive, and thriving community. Here are some
+                    key components of village development:
+
+                    Infrastructure Development:
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-----------footer section------------------->
+      <footer class="bg-dark bg-footer" style="margin-top: 80px;">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <h5 class="text-light">About Village</h5>
+              <p class="text-light">Belwari, nestled in the heart of its surrounding natural beauty, is a quaint village
+                that captures the essence of simplicity and community spirit. Located [provide any specific details
+                about the location if needed], the village site of Belwari is a canvas painted with lush green fields,
+                meandering streams, and a serene ambiance that reflects the timeless charm of rural life.</p>
+              <p class="text-light"><i class="fa fa-location">&nbsp;</i>pin- 855105</p>
+              <p class="text-light"><i class="fa fa-phone">&nbsp;</i>(+91) 7061379426</p>
+              <p class="text-light"><i class="fa fa-envelope">&nbsp;</i>jeetkrjha@gmail.com</p>
+            </div>
+            <div class="col-lg-3">
+              <h5 class="text-light">Quick Links</h5>
+              <ul class="list-unstyled">
+                <li><a href="#">Home</a></li>
+                <li><a href="#Popular">Popular</a></li>
+                <li><a href="#Service">Service</a></li>
+                <li><a href="#Reviws">Reviews</a></li>
+                <li><a href="#Blog">News</a></li>
+                <li><a href="Contactus.html">Contact</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3">
+              <h5 class="text-light"> Stay Connected</h5>
+              <ul class="list-unstyled">
+                <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i> linkedin</a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i> twitter</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-lg-12">
+              <p class="text-conter text-light">
+                copyright &copy; 2023<a href="#"> Belwari</a>. All Right Reserved,
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
